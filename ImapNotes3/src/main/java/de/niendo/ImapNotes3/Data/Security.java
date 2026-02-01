@@ -1,7 +1,8 @@
 /*
- * Copyright (C) 2022-2024 - Peter Korf <peter@niendo.de>
+ * Copyright (C) 2022-2026 - Peter Korf <peter@niendo.de>
  * Copyright (C)      2023 - Axel Strübing
  * Copyright (C) ?   -2022 - kwhitefoot
+ * Copyright (C) 2016      - kj
  * and Contributors.
  *
  * This file is part of ImapNotes3.
@@ -55,7 +56,9 @@ public enum Security {
     @SuppressWarnings("unused")
     STARTTLS(R.string.STARTTLS, "143", "imap", false),
     @SuppressWarnings("unused")
-    STARTTLS_accept_all_certificates(R.string.STARTTLS_allcerts, "143", "imap", true);
+    STARTTLS_accept_all_certificates(R.string.STARTTLS_allcerts, "143", "imap", true),
+    // OAUTH2(R.string.OAUTH2,"993","imaps",false)
+    ;
 
     @NonNull
     static final String TAG = "IN_Security";
