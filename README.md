@@ -36,7 +36,8 @@ A free and fast notes editor for Android that allows for synchronization with IM
 
 __General Attributes__
 
-* compatible with various IMAP servers (Gmail, Yahoo, AOL, Posteo, and your server)
+* compatible with various IMAP servers (~~Gmail~~, Yahoo, AOL, Posteo, and your server)
+* **OAuth2/XOauth2 is currently not supported, but it will in one of the next releases**
 * security options include _plain text_, _SSL/TLS_, or _STARTTLS_
 * save notes as standard HTML E-mails
 * manage multiple IMAP accounts and/or notepads
